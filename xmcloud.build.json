@@ -81,5 +81,6 @@
       }
     }
   },
-  "authoringPath": "./authoring"
+  "authoringPath": "./authoring",
+  "test": "change"
 }
