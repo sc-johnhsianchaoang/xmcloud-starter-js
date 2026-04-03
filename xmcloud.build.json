@@ -82,5 +82,5 @@
     }
   },
   "authoringPath": "./authoring",
-  "test": "change"
+  "test": "change2"
 }
