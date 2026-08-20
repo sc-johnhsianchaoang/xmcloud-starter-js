@@ -9,7 +9,7 @@
     "start:angular": "pnpm -F=node-xmcloud-sample start"
   },
   "license": "ISC",
-  "packageManager": "pnpm@latest",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": ">=22.0.0",
     "pnpm": ">=9.11.0"
