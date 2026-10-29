@@ -69,6 +69,15 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
+    },
+    "nx-project-graph-repro": {
+      "path": "./examples/nx-project-graph-repro",
+      "nodeVersion": "24.22.1",
+      "packageManager": "npm",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "nx:start"
     }
   },
   "postActions": {
