@@ -1,0 +1,21 @@
+{
+  "name": "nx-project-graph-repro",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "nx build itkd-app && node scripts/seed-unnamed-output-project.mjs",
+    "nx:start": "nx start itkd-app"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@nx/next": "23.0.0",
+    "nx": "23.0.0"
+  }
+}
